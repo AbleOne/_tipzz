@@ -1,0 +1,19 @@
+// Profiles
+
+#profile {
+    .header {
+        @extend .pb-7;
+    }
+    .avatar-wrapper {
+        @extend .mt-n7;
+
+        &:hover{
+            transform: none;
+            cursor: default;
+        }
+
+        &:hover .profile-pic{
+            opacity: 1;
+        }
+    }
+}

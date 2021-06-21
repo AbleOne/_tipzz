@@ -1,0 +1,63 @@
+// BS 5 Bundle
+@import "../../node_modules/bootstrap/scss/functions";
+@import "variables";
+@import "../../node_modules/bootstrap/scss/mixins"; 
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$fa-font-path:         "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Components
+@import "forms";
+@import "cards"; 
+
+// Views
+@import "views/profile";
+
+
+html {
+    background-color: $gray-300;
+}
+
+body {
+    max-width: 450px;
+    @extend .min-vh-100;
+    @extend .mx-auto;
+    @extend .d-flex;
+    @extend .flex-column;
+}
+
+p:last-child {
+    @extend .mb-0;
+}
+
+footer {
+    @extend .mt-auto;
+}
+
+.header {
+    @extend .position-relative;
+    
+    &__img-bg {
+        @extend .position-absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        @extend .ratio;
+        @extend .ratio-21x9;
+        @extend .bg-light;
+
+        & ~ * {
+            @extend .position-relative;
+        } 
+    }
+}
+
+.navbar-brand {
+    @extend .text-uppercase;
+    @extend .fw-bold;
+    @extend .mx-auto;
+}

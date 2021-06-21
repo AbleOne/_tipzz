@@ -1,0 +1,5 @@
+@import "avatar-upload";
+
+fieldset + fieldset {
+    @extend .mt-4;
+} 
