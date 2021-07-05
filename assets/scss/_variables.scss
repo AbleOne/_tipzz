@@ -69,7 +69,7 @@ $colors: (
 // scss-docs-start theme-color-variables
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
-$success:       $green !default;
+$success:       #22ca7c;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -225,7 +225,7 @@ $enable-button-pointers:      true !default;
 $enable-rfs:                  true !default;
 $enable-validation-icons:     true !default;
 $enable-negative-margins:     true;
-$enable-deprecation-messages: true !default;
+$enable-deprecation-messages: false;
 $enable-important-utilities:  true !default;
 
 // Prefix for :root CSS variables
@@ -255,6 +255,7 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  6: $spacer * 4.5,
   7: $spacer * 7,
 );
 
@@ -507,8 +508,8 @@ $hr-height:                   $border-width !default;
 $hr-opacity:                  1;
 
 $legend-margin-bottom:        .5rem !default;
-$legend-font-size:            1.5rem !default;
-$legend-font-weight:          null !default;
+$legend-font-size:            .875rem;
+$legend-font-weight:          $font-weight-bold;
 
 $mark-padding:                .2em !default;
 
@@ -1374,17 +1375,17 @@ $carousel-control-opacity:           .5 !default;
 $carousel-control-hover-opacity:     .9 !default;
 $carousel-control-transition:        opacity .15s ease !default;
 
-$carousel-indicator-width:           30px !default;
-$carousel-indicator-height:          3px !default;
+$carousel-indicator-width:           10px;
+$carousel-indicator-height:          10px;
 $carousel-indicator-hit-area-height: 10px !default;
 $carousel-indicator-spacer:          3px !default;
 $carousel-indicator-opacity:         .5 !default;
-$carousel-indicator-active-bg:       $white !default;
+$carousel-indicator-active-bg:       $gray-400;
 $carousel-indicator-active-opacity:  1 !default;
 $carousel-indicator-transition:      opacity .6s ease !default;
 
 $carousel-caption-width:             70% !default;
-$carousel-caption-color:             $white !default;
+$carousel-caption-color:             $body-color;
 $carousel-caption-padding-y:         1.25rem !default;
 $carousel-caption-spacer:            1.25rem !default;
 

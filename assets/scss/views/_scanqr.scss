@@ -1,0 +1,15 @@
+#scanqr {
+    main,
+    main a {
+        @extend .d-flex;
+        @extend .flex-column;
+        @extend .flex-grow-1;
+    }
+    
+    main a {
+        background-image: url(../../assets/images/shown-qr.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,51 @@
+// Tipzz
+
+#tipzz {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .avatar-wrapper {
+        height: 100px;
+	    width: 100px;
+        margin: 16px 0 24px 0;
+
+        &:hover{
+            transform: none;
+            cursor: default;
+        }
+
+        &:hover .profile-pic{
+            opacity: 1;
+        }
+
+        .profile-pic {
+            &:after{
+                font-size: 90px !important;
+            }
+        }
+    }
+    .employee-brief {
+        @extend .d-inline-flex;
+        @extend .align-self-center;
+        @extend .justify-content-between;
+        @extend .align-items-center;
+        
+        &__text {
+            @extend .me-4;
+            max-width: 50%;
+        }
+    }
+    
+    main {
+        @extend .px-2;
+        @extend .pt-4;
+    }
+
+    #tipzz-summ-val {
+        font-size: 2rem;
+    }
+}

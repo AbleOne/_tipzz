@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager - Tipzz</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header__img-bg"></div>
+        <nav class="navbar navbar-light">
+            <div class="container">
+              <a class="navbar-brand mx-auto" href="index.html">Tipzz</a>
+            </div>
+        </nav>
+        <h1 class="h6 text-center mb-4">Редактирование профиля</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form action="" class=" m-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <fieldset>
+                            <div class="avatar-wrapper">
+                                <img class="profile-pic" src="" />
+                                <div class="upload-button"> 
+                                    <i class="fas fa-arrow-circle-up" aria-hidden="true"></i>
+                                </div>
+                                <input class="file-upload visually-hidden-focusable" type="file" accept="image/*"/>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="form-label" for="-5">Имя Фамилия</label>
+                                <input type="text" class="form-control form-control" id="-5" name="-" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="form-label" for="6">Должность</label>
+                                <input type="text" class="form-control form-control" id="6" name="" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="form-label" for="-7">Заведение/Номер АЗС</label>
+                                <input type="text" class="form-control form-control" id="-7" name="-" required>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="form-group mb-3">
+                                <label class="form-label" for="email2">Email</label>
+                                <input type="email" class="form-control form-control" id="email2" name="email" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="form-label" for="3">Пароль</label>
+                                <input type="password" class="form-control form-control" id="3" name="" required>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="form-group mb-3">
+                                <label class="form-label" for="-9">Номер карты</label>
+                                <input type="text" class="form-control form-control" id="-9" name="-" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="form-label" for="-10">Имя на карте</label>
+                                <input type="text" class="form-control form-control" id="-10" name="-" required>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="form-group mt-4 mb-3">
+                    <a href="profile.html" id="back" class="btn btn-primary btn-lg w-100" type="submit">Сохранить</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="small text-muted text-center py-4">&copy; 2021, Tipzz App </p>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

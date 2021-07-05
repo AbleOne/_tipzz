@@ -11,11 +11,15 @@ $fa-font-path:         "../../node_modules/@fortawesome/fontawesome-free/webfont
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
 // Components
-@import "forms";
-@import "cards"; 
+@import "components/forms";
+@import "components/cards"; 
+@import "components/carousel";
+@import "components/rate";
 
 // Views
 @import "views/profile";
+@import "views/scanqr";
+@import "views/tipzz";
 
 
 html {

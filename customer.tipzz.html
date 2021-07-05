@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager - Tipzz</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    
+</head>
+<body id="tipzz">
+    <header class="header bg-light">
+        <nav class="navbar navbar-light d-none">
+            <div class="container">
+              <a class="navbar-brand mx-auto" href="index.html">Tipzz</a>
+            </div>
+        </nav>
+        <img class="company-brand d-block mx-auto mt-3 mb-2" src="https://via.placeholder.com/120x20?text=БРЕНД" alt="Company Brand">
+        <div class="employee-brief">
+            <div class="avatar-wrapper">
+                <img class="profile-pic" src="" />
+            </div>
+            <div class="employee-brief__text">
+                <small>Должность</small>
+                <h1 class="">Имя Фамилия</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form action="" class=" m-auto">
+                <fieldset>
+                    <legend>Размер чаевых</legend>
+                    <div class="form-group mb-3">
+                        <!-- <label class="form-label" for="-5">Имя Фамилия</label> -->
+                        <div class="input-group mb-3">
+                            <span class="input-group-text bg-white border-end-0" id="fake"><span class="text-white fas fa-times-circle"></span></span>
+                            <input type="text" placeholder="Введите сумму" value="400" class="border-start-0 border-end-0 form-control form-control-lg text-center" id="tipzz-summ-val" name="tipzz-summ-val" required>
+                            <span class="input-group-text bg-white border-start-0" id="tipzz-summ-val-clear"><span class="fas fa-times-circle"></span></span>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <div class="row">
+                            <div class="col-3"><button id="tipzz-option-1" class="btn btn-lg w-100 btn-outline-secondary">30</button></div>
+                            <div class="col-3"><button id="tipzz-option-2" class="btn btn-lg w-100 btn-outline-secondary">50</button></div>
+                            <div class="col-3"><button id="tipzz-option-3" class="btn btn-lg w-100 btn-outline-secondary">100</button></div>
+                            <div class="col-3"><button id="tipzz-option-4" class="btn btn-lg w-100 btn-outline-secondary">150</button></div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Оставьте отзыв (опционально)</legend>
+                    <div class="form-group clearfix mb-3">
+                        <div class="rate">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <button type="button" class="btn btn-sm btn-outline-primary rounded-pill px-3 me-1 mb-2" data-bs-toggle="button" autocomplete="off">Аккуратность</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary rounded-pill px-3 me-1 mb-2" data-bs-toggle="button" autocomplete="off">Отзывчивость</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary rounded-pill px-3 me-1 mb-2" data-bs-toggle="button" autocomplete="off">Клиентоориентированность</button>
+                    </div>
+                </fieldset>
+                <div class="form-group mt-4 mb-3">
+                    <a href="customer.happy.html" class="btn btn-primary btn-lg w-100" type="submit">Оплатить</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="small text-muted text-center py-4">&copy; 2021, Tipzz App </p>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

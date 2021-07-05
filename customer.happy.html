@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/app.css">
     
 </head>
-<body>
+<body id="onboarding-scan">
     <header class="header">
         <div class="header__img-bg"></div>
         <nav class="navbar navbar-light">
@@ -16,20 +16,20 @@
               <a class="navbar-brand mx-auto" href="index.html">Tipzz</a>
             </div>
         </nav>
-        <h1 class="h6 text-center mb-4">Экраны прототипа</h1>
     </header>
-    <main>
-        <div class="container">
-            <div class="card">
-                <div class="card-body">
-                    <ul class="my-5">
-                        <li><a href="profile.new.html">Роль Менеджера</a></li>
-                        <li><a href="profile.employee.html">Роль Исполнителя</a></li>
-                        <li><a href="customer.onboarding.html">Роль Заказчика</a></li>
-                    </ul>
+    <main class="d-flex flex-column flex-grow-1">
+        <div class="container d-flex flex-column flex-grow-1">
+            <div class="card mb-5 d-flex flex-column flex-grow-1">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <span class="text-success fas fa-7x fa-check-circle mb-2"></span>
+                    <h1 class="mt-2 mb-3 text-center">Оплата прошла успешно! 🎉</h1>
                 </div>
             </div>
+            <!-- <div class="d-flex justify-between mt-auto">
+                <a href="customer.scanqr.html" class="mx-auto mb-2 btn btn-lg btn-primary ">Сканировать QR<span class="ms-2 fas fa-expand"></span></a>
+            </div> -->
         </div>
+        
     </main>
     <footer>
         <p class="small text-muted text-center py-4">&copy; 2021, Tipzz App </p>
